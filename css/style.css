@@ -10,11 +10,24 @@ td button {
     display: block;
     margin: auto;
 }
+input {
+    margin-top: 5px;
+}
 
 th {
     width: 10em;
 }
 
+p {
+    width: 40em;
+}
+
 h1 {
     margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 45em) {
+    p {
+        width: 95%;
+    }
 }
