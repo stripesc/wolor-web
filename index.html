@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Webpage description goes here" />
+        <meta charset="utf-8">
+        <title>Wolour</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>
+            <h1>Wolour</h1>
+            <p>
+                Enter the word you want to make into a colour into the "Word" input field.
+                If you don't like the results put a number into the "Multiplier" field to change the results!
+            </p>
+            <label>Word
+                <input id="word">
+            </label>
+            <button id="add">Add</button>
+            <br>
+            <label>Multiplier
+                <input id="multi">
+            </label>
+        </div>
+        <br>
+        <div id="tableDiv">
+            <table class="table">
+                <thead id="tableHead">
+                    <tr>
+                        <th>Word</th>
+                        <th>Multiplier</th>
+                        <th>Hex</th>
+                        <th>Colour</th>
+                        <th>Functions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </body>
+    <script src="scripts/colourGen.js"></script>
+</html>
