@@ -1,0 +1,20 @@
+* {
+    font-family: monospace, monospace;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+td button {
+    display: block;
+    margin: auto;
+}
+
+th {
+    width: 10em;
+}
+
+h1 {
+    margin-bottom: 5px;
+}

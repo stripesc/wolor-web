@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta name="description" content="Webpage description goes here" />
-    <meta charset="utf-8">
-    <title>Wolour</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="css/style.css">
+    <head>
+        <meta name="description" content="Webpage description goes here" />
+        <meta charset="utf-8">
+        <title>Wolour</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>
+            <h1>Make word into colour</h1>
+            <label>Word
+                <input id="word">
+            </label>
+            <button id="add">Add</button>
+        </div>
+        <br>
+        <div id="tableDiv">
+            <table class="table">
+                <thead id="tableHead">
+                    <tr>
+                        <th>Word</th>
+                        <th>Hex</th>
+                        <th>Colour</th>
+                        <th>Functions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </body>
     <script src="scripts/colourGen.js"></script>
-</head>
-
-<body>
-
-<div class="container">
-
-</div>
-
-<script>
-</script>
-
-</body>
 </html>
